@@ -11,7 +11,6 @@ import { Gallery } from '@/components/sections/Gallery';
 import { OurTeam } from '@/components/sections/OurTeam';
 import { Testimonial } from '@/components/sections/Testimonial';
 import { Faq } from '@/components/sections/Faq';
-import { Contact } from '@/components/sections/Contact';
 import { BookAppointment } from '@/components/sections/BookAppointment';
 import { Footer } from '@/components/common/Footer';
 
@@ -36,7 +35,6 @@ export default function Home() {
       <OurTeam data={sectionData.OurTeam?.variants?.PetOurTeam2} />
       <Testimonial data={sectionData.Testimonials?.variants?.PetTestimonials2} />
       <Faq data={sectionData.Faq?.variants?.PetFaq2} />
-      <Contact data={sectionData.Contact?.variants?.PetContact2} />
       <BookAppointment data={sectionData.BookAppointment?.variants?.PetBookAppointment2} />
       <Footer data={commonData.Footer} />
     </main>

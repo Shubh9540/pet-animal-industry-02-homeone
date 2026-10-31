@@ -56,11 +56,6 @@
   --color-team-image-bg: #fdf5ea;
   --color-gallery-badge: #fef3e2;
   --color-gallery-overlay: rgba(43, 32, 21, 0.15);
-  --color-contact-badge: #fef3e2;
-  --color-contact-icon-bg: #fef3e2;
-  --color-contact-icon-hover: #fde6c7;
-  --color-contact-card-border: #f8e5ce;
-  --color-contact-field-bg: #fffdfa;
   --color-appointment-card-bg: #ffffff;
   --color-appointment-field-bg: #fffdfa;
   --color-appointment-border: #f6e3c8;
@@ -105,7 +100,6 @@
   --shadow-form: 0 8px 30px rgba(43, 32, 21, 0.06);
   --shadow-appointment-form: 0 14px 42px rgba(43, 32, 21, 0.07);
   --shadow-testimonial-card: 0 12px 35px rgba(43, 32, 21, 0.06);
-  --shadow-contact-card: 0 18px 50px rgba(43, 32, 21, 0.08);
 }
 
 body {

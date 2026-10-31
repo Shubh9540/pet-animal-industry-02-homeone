@@ -320,54 +320,7 @@ export interface WhyChooseUsProps {
   data?: WhyChooseUsData;
 }
 
-export interface ContactInfoLine {
-  id: string;
-  text: string;
-}
 
-export interface ContactInfoItem {
-  id: string;
-  icon: string;
-  title: string;
-  lines: ContactInfoLine[];
-  url?: string;
-}
-
-export interface ContactServiceOption {
-  id: string;
-  label: string;
-  value: string;
-}
-
-export interface ContactData {
-  intro: {
-    eyebrow: string;
-    title: string;
-    highlightedTitle: string;
-    description: string;
-  };
-  form: {
-    title: string;
-    description: string;
-    namePlaceholder: string;
-    phonePlaceholder: string;
-    emailPlaceholder: string;
-    servicePlaceholder: string;
-    serviceOptions: ContactServiceOption[];
-    messagePlaceholder: string;
-    buttonText: string;
-    successMessage: string;
-  };
-  visual: {
-    image: string;
-    imageAlt: string;
-  };
-  contactItems: ContactInfoItem[];
-}
-
-export interface ContactProps {
-  data?: ContactData;
-}
 
 export interface BookAppointmentFormOption {
   id: string;
@@ -434,7 +387,6 @@ export interface PetTemplateData {
         OurTeam?: { variants?: { PetOurTeam2?: OurTeamData } };
         Testimonials?: { variants?: { PetTestimonials2?: TestimonialsData } };
         Faq?: { variants?: { PetFaq2?: FaqData } };
-        Contact?: { variants?: { PetContact2?: ContactData } };
         BookAppointment?: { variants?: { PetBookAppointment2?: BookAppointmentData } };
       };
     };
